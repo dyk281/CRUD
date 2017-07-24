@@ -46,7 +46,7 @@ def list_products():
     print("THERE ARE " + str(len(products)) + " PRODUCT(S):")
     for p in products:
         print("+ ID:" + p["id"] + "; NAME:" +p["name"]+ "; AISLE:" +p["aisle"]+ "; DEPT:" + p["department"]+ "; PRICE:" + p["price"])
-        #print(list(products.items())
+        #print(dict(p))  #alternate
 
 def show_product():
 
